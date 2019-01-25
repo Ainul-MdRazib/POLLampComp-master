@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpolaris_bg"
+    tools:context=".XtraEmojiMenu">
+
+    <Button
+        android:id="@+id/BackFromOtherEmojiButton"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/OtherEmojiMenuTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OtherEmojiMenuTitle"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Send an Emoji!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/BackFromOtherEmojiButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/XtraEmojiGreetingField"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:background="#D2FFFFFF"
+        android:gravity="center"
+        android:text="How are you feeling today?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/OtherEmojiMenuTitle" />
+
+
+    <ScrollView
+        android:id="@+id/EmojiScroller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/XtraEmojiGreetingField">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorPrimary"
+            android:columnCount="2"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/othersmiling"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/smiling" />
+
+            <ImageButton
+                android:id="@+id/otherparty_popper"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/party_popper" />
+
+            <ImageButton
+                android:id="@+id/otherbusy"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:background="@color/colorPrimary"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/busy"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <ImageButton
+                android:id="@+id/othersick"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/sick" />
+
+            <ImageButton
+                android:id="@+id/othercrying"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/crying" />
+
+            <ImageButton
+                android:id="@+id/othersleepy"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/sleepy" />
+
+            <ImageButton
+                android:id="@+id/otherangry"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/angry" />
+
+            <ImageButton
+                android:id="@+id/otherhearteyes"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/hearteyes" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

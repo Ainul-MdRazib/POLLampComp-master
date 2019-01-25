@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpolaris_bg"
+    tools:context=".MyLampSettings"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageButton
+        android:id="@+id/BackFromMySettingsButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/myLampSettingsTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myLampSettingsTitle"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="My Lamp Settings"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/MyColourDisplay"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="@id/CurrentLampColourHeading"
+        app:layout_constraintTop_toBottomOf="@id/CurrentLampColourHeading" />
+
+    <TextView
+        android:id="@+id/MyPatternDisplay"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@android:color/white"
+        android:text="No pattern selected"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/CurrentLampPatternHeading"
+        app:layout_constraintTop_toBottomOf="@+id/CurrentLampPatternHeading" />
+
+
+
+    <TextView
+        android:id="@+id/CurrentLampColourHeading"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Current Lamp Colour"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myLampSettingsTitle" />
+
+    <TextView
+        android:id="@+id/CurrentLampPatternHeading"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="65dp"
+
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Current Lamp Pattern"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyColourDisplay" />
+
+    <Button
+        android:id="@+id/ChangeMyColourButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Change Lamp Colour"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="@id/CurrentLampColourHeading"
+        app:layout_constraintRight_toRightOf="@id/CurrentLampColourHeading"
+        app:layout_constraintTop_toBottomOf="@id/MyColourDisplay" />
+
+    <Button
+        android:id="@+id/ChangeMyPatternButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Change Lamp Pattern"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="@id/CurrentLampPatternHeading"
+        app:layout_constraintRight_toRightOf="@id/CurrentLampPatternHeading"
+        app:layout_constraintTop_toBottomOf="@id/MyPatternDisplay" />
+</android.support.constraint.ConstraintLayout>

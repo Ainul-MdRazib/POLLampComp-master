@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OtherColourMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallpolaris_bg"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="0dp"
+    tools:context=".OtherColourMenu"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/OtherColourGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="What is their colour for the day?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/OtherColourPicker"
+        android:layout_width="225dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:text="Pick the colour!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="@id/OtherColourMenuLayout"
+        app:layout_constraintRight_toRightOf="@id/OtherColourMenuLayout"
+        app:layout_constraintTop_toBottomOf="@+id/OtherColourGreeting" />
+
+    <Button
+        android:id="@+id/OtherColourSendToButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/checkbox_unchecked"
+        app:layout_constraintLeft_toLeftOf="@id/OtherColourMenuLayout"
+        app:layout_constraintRight_toRightOf="@id/OtherColourMenuLayout"
+        app:layout_constraintTop_toBottomOf="@+id/OtherColourPicker" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/myvert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.333" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/myvert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.667" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/hor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="35dp" />
+
+</android.support.constraint.ConstraintLayout>

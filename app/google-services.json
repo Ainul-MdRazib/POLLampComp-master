@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "3658732211",
+    "firebase_url": "https://chat-d2fb5.firebaseio.com",
+    "project_id": "chat-d2fb5",
+    "storage_bucket": "chat-d2fb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3658732211:android:501e7ec3a13b1940",
+        "android_client_info": {
+          "package_name": "com.example.ainul.polarisapp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3658732211-35pt2o07stoaj8n870tt70ct45ro3h9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ainul.polarisapp3",
+            "certificate_hash": "9a30168a8bd765af469212b01ef484970705aa2e"
+          }
+        },
+        {
+          "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5RLT-111UyKvl1QNdW8_KzBC778tTxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3658732211:android:56fa99618acb22c5",
+        "android_client_info": {
+          "package_name": "com.example.letongwei.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3658732211-cack2u84r16n7jvth68che6ks5gafedc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letongwei.chat",
+            "certificate_hash": "9a30168a8bd765af469212b01ef484970705aa2e"
+          }
+        },
+        {
+          "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5RLT-111UyKvl1QNdW8_KzBC778tTxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3658732211:android:9086c59177933338",
+        "android_client_info": {
+          "package_name": "com.example.letongwei.lamp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5RLT-111UyKvl1QNdW8_KzBC778tTxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3658732211:android:3f55ecfe25267a70",
+        "android_client_info": {
+          "package_name": "me.aflak.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3658732211-6qi25l0pp4aiaikgktdbbfgcnv6rph9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.aflak.firebasechat",
+            "certificate_hash": "9a30168a8bd765af469212b01ef484970705aa2e"
+          }
+        },
+        {
+          "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5RLT-111UyKvl1QNdW8_KzBC778tTxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3658732211-o71gadp3jgnebab65ivt4qcqm9jcjagr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

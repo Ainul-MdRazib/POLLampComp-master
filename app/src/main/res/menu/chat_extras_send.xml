@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/xtra_emoji"
+        android:checkable="false"
+        android:icon="@drawable/smiling"
+        android:title="Send them an Emoji!"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/xtra_colour"
+        android:checkable="false"
+        android:icon="@drawable/ambilwarnach"
+        android:title="Set Other Lamp Colour"
+        app:showAsAction="ifRoom|withText" />
+</menu>
